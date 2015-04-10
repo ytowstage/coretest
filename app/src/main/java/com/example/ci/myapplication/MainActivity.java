@@ -17,7 +17,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        com.toast(this,"안녕하세요 누구쇼쇼쇼!!!",2000);
+        com.toast(this,"안녕하세요 누구쇼쇼쇼!",2000);
     }
 
     @Override
