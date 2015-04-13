@@ -2,7 +2,7 @@
  * 2015-04-10
  * @author lee jongmin <ljm9517@naver.com>
  * @version 1.0
- * 공용
+ * 공용 수정 테스트요
 *------------------------------------------------------*/
 package y2stage.core;
 
