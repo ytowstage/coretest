@@ -33,7 +33,7 @@ public class Common {
         final Toast t = Toast.makeText(c, msg, Toast.LENGTH_SHORT);
         new CountDownTimer(duration, 1000) {
             @Override
-            public void onTick(long millisUntilFinished) {
+            public void onTick(long millisUntilFinished){
                 t.show();
             }
 
