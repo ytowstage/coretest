@@ -56,6 +56,10 @@ public class Common {
 	 			   msec : 밀리언
 	 @return : bool
 	---------------------------------------------------------------*/
+    public void toast(Context c,String msg){
+        this.toast(c,msg,300);
+    }
+
     public void toast(Context c,String msg,int msec){
 
         if(c == null || StringUtil.isEmpty(msg)) return;
