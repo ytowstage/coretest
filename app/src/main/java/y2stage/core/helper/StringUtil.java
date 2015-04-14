@@ -2,7 +2,7 @@
  * 2015-04-10
  * @author lee jongmin <ljm9517@naver.com>
  * @version 1.0
- * ¹®ÀÚ °ü·Ã
+ * ë¬¸ìê´€ë ¨
 *------------------------------------------------------*/
 package y2stage.core.helper;
 

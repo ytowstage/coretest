@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import study.day1.Day1Activity;
+import study.day2.Activity;
 import y2stage.core.Common;
 
 
@@ -27,6 +28,12 @@ public class MainActivity extends ActionBarActivity {
     public void buttonClick(View v){
         com.toast(this, "Day1 버튼을 눌렸네요~~");
         Intent itn= new Intent(getApplicationContext(),Day1Activity.class);
+        startActivity(itn);
+    }
+
+    public void buttonClick2(View v){
+        com.toast(this, "Day2 버튼을 눌렸네요~~");
+        Intent itn= new Intent(getApplicationContext(),Activity.class);
         startActivity(itn);
     }
 
