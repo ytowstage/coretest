@@ -1,10 +1,13 @@
 package com.example.ci.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
+import study.day1.Day1Activity;
 import y2stage.core.Common;
 
 
@@ -19,6 +22,12 @@ public class MainActivity extends ActionBarActivity {
 
         com.toast(this,"안녕하세요 누구쇼쇼쇼!");
         com.log("안녕하세요 누구쇼쇼쇼");
+    }
+
+    public void buttonClick(View v){
+        com.toast(this, "Day1 버튼을 눌렸네요~~");
+        Intent itn= new Intent(getApplicationContext(),Day1Activity.class);
+        startActivity(itn);
     }
 
     @Override
