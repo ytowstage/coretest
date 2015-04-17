@@ -4,9 +4,8 @@
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/ci/myapplication/MainActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/study/day1/Day1Activity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/study/day1/Day1ActivitySub.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/study/day1/Day2Activity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/study/day2/Activity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/study/day3/Activity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/y2stage/core/Common.java" charset="UTF-8" />
   </component>
 </project>
-

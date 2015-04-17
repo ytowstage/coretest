@@ -19,6 +19,7 @@
         <activity android:name="study.day1.Day1Activity"></activity>
         <activity android:name="study.day1.Day1ActivitySub"></activity>
         <activity android:name="study.day2.Activity"></activity>
+        <activity android:name="study.day3.Activity"></activity>
     </application>
 
 </manifest>

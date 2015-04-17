@@ -21,10 +21,21 @@
         android:layout_height="wrap_content"
         android:text="DAY2"
         android:id="@+id/DAY2"
-        android:layout_alignTop="@+id/button"
-        android:layout_toRightOf="@+id/button"
-        android:layout_toEndOf="@+id/button"
         android:singleLine="false"
-        android:onClick="buttonClick2" />
+        android:onClick="buttonClick2"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAY5"
+        android:id="@+id/DAY5"
+        android:singleLine="false"
+        android:onClick="buttonClick5"
+        android:layout_alignTop="@+id/DAY2"
+        android:layout_toRightOf="@+id/DAY2"
+        android:layout_toEndOf="@+id/DAY2" />
 
 </RelativeLayout>

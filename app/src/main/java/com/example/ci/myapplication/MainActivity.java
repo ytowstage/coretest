@@ -37,6 +37,12 @@ public class MainActivity extends ActionBarActivity {
         startActivity(itn);
     }
 
+    public void buttonClick5(View v){
+        com.toast(this, "Day5 버튼을 눌렸네요~~");
+        Intent itn= new Intent(getApplicationContext(),study.day3.Activity.class);
+        startActivity(itn);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
